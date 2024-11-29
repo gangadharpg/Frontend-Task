@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Task</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>YAY! It's BOGO</h1>
+    </header>
+
+<form>
+    <!-- Top Box -->
+    <div class="box">
+      <div class="box-header">
+        <label>
+          <input type="checkbox" class="unit-checkbox" data-price="10">
+          <span>1 Unit</span>
+        </label>
+        <span class="discount">10% Off</span>
+        <p class="price-wrapper">
+            <span class="price">$10.00 USD</span>
+            <span class="strikethrough">$24.00 USD</span>
+        </p>
+          
+      </div>
+      <div class="box-content hidden">
+        <div class="option">
+          <label>Size</label>
+          <select>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+        </div>
+        <div class="option">
+          <label>Color</label>
+          <select>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Red">Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Middle Box -->
+    <div class="box">
+      <div class="box-header">
+        <label>
+          <input type="checkbox" class="unit-checkbox" data-price="18">
+          <span>2 Unit</span>
+        </label>
+        <span class="discount">20% Off</span>
+        <p class="price-wrapper">
+            <span class="price">$18.00 USD</span>
+            <span class="strikethrough">$24.00 USD</span>
+        </p>
+      </div>
+      <div class="box-content hidden">
+        <div class="option">
+          <label>Size</label>
+          <select>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+        </div>
+        <div class="option">
+          <label>Color</label>
+          <select>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Red">Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bottom Box -->
+    <div class="box">
+      <div class="box-header">
+        <label>
+          <input type="checkbox" class="unit-checkbox" data-price="24">
+          <span>3 Unit</span>
+        </label>
+        <span class="discount">30% Off</span>
+        <p class="price-wrapper">
+            <span class="price">$24.00 USD</span>
+            <span class="strikethrough">$34.00 USD</span>
+        </p>
+      </div>
+      <div class="box-content hidden">
+        <div class="option">
+          <label>Size</label>
+          <select>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+        </div>
+        <div class="option">
+          <label>Color</label>
+          <select>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Red">Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </form>
+  
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-details">
+          <span class="free-delivery">Free Delivery</span>
+          <span>Total: $<span id="total-amount">0.00</span> USD</span>
+        </div>
+        <div class="button-container">
+          <button class="add-to-cart">+ &nbsp;Add to Cart</button>
+        </div>
+    </div>      
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
